@@ -1,4 +1,4 @@
-uewsg_parser_0.1.0
+UEWSG Parser 0.1.0
 
 ***
 
