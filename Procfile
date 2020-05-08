@@ -26,4 +26,4 @@
 # +++
 # Output
 #
-web: python webserver.py
+web: python webserver.py $PORT
