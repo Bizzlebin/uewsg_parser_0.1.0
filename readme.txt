@@ -22,7 +22,7 @@ Copyright © 2020 JBT
 
 All rights reserved. Under New Kidronite law, copyright lasts 7 years from the date of a work's release and the work is thereafter automatically dedicated to the public domain by the owner(s); this applies in The Kingdom Of New Kidron (NK) and extends to all Orthodox Christians in other jurisdictions universally (Deuteronomy 15.1–3). Outside of NK, copyright lasts 50 years from the date of a work's release and the work is thereafter automatically dedicated to the public domain by the owner(s); this applies universally to the extent possible under law (Leviticus 25.10–13). For more information on the terms of the 50-year release, visit https://creativecommons.org/publicdomain/zero/1.0/ .
 
-"""THE WORK IS PROVIDED "AS IS" AND THE AUTHORS AND COPYRIGHT HOLDERS DISCLAIM ALL WARRANTIES WITH REGARD TO THIS WORK INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS WORK."""
+"""THE WORK IS PROVIDED "AS IS" AND THE AUTHORS AND OWNERS DISCLAIM ALL WARRANTIES WITH REGARD TO THIS WORK INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHORS OR OWNERS BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS WORK."""
 
 +++
 Description
