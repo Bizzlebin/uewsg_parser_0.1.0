@@ -1,0 +1,130 @@
+{
+	"preformatted_blockquote": {
+		"regex": "^(\\\"\\\"\\\")$",
+		"alt_regex": "^(''')$",
+		"opening_tag": "<pre>",
+		"closing_tag": "</pre><br>",
+		"contains_block_constructs": false,
+		"contains_inline_constructs": false
+	},
+	"blockquote": {
+		"regex": "^(\\\")$",
+		"alt_regex": "^(')$",
+		"opening_tag": "<blockquote>",
+		"closing_tag": "</blockquote><br>",
+		"contains_block_constructs": true,
+		"contains_inline_constructs": true
+	},
+	"aside_opening_marker": {
+		"regex": "^(///)$",
+		"alt_regex": null,
+		"opening_tag": "<div class=\"aside_wrapper\"><aside><span class=\"aside_opening_marker\">",
+		"closing_tag": "</span>",
+		"contains_block_constructs": false,
+		"contains_inline_constructs": false
+	},
+	"aside_closing_marker": {
+		"regex": "^(\\\\\\\\\\\\)$",
+		"alt_regex": null,
+		"opening_tag": "<span class=\"aside_closing_marker\">",
+		"closing_tag": "</span></aside><br></div>",
+		"contains_block_constructs": false,
+		"contains_inline_constructs": false
+	},
+	"main_title": {
+		"regex": "\\A(.*?)$",
+		"alt_regex": null,
+		"opening_tag": "<h1>",
+		"closing_tag": "</h1><br>",
+		"contains_block_constructs": false,
+		"contains_inline_constructs": true
+	},
+	"chapter_heading": {
+		"regex": "\\n^$\\n^\\+\\+\\+$\\n^(.*?)$",
+		"alt_regex": null,
+		"opening_tag": "<h2>",
+		"closing_tag": "</h2><br>",
+		"contains_block_constructs": false,
+		"contains_inline_constructs": true
+	},
+	"section_heading": {
+		"regex": "\\n^$\\n^===$\\n^(.*?)$",
+		"alt_regex": null,
+		"opening_tag": "<h3>",
+		"closing_tag": "</h3><br>",
+		"contains_block_constructs": false,
+		"contains_inline_constructs": true
+	},
+	"subsection_heading": {
+		"regex": "\\n^$\\n^---$\\n^(.*?)$",
+		"alt_regex": null,
+		"opening_tag": "<h4>",
+		"closing_tag": "</h4><br>",
+		"contains_block_constructs": false,
+		"contains_inline_constructs": true
+	},
+	"extended_subsection_5_heading": {
+		"regex": "\\n^$\\n^~~~~~$\\n^(.*?)$",
+		"alt_regex": null,
+		"opening_tag": "<h5>",
+		"closing_tag": "</h5><br>",
+		"contains_block_constructs": false,
+		"contains_inline_constructs": true
+	},
+	"main_title_marker": {
+		"regex": "\\n^$\\n^(###)$",
+		"alt_regex": null,
+		"opening_tag": "<span class=\"main_title_marker\">",
+		"closing_tag": "</span>",
+		"contains_block_constructs": false,
+		"contains_inline_constructs": false
+	},
+	"chapter_marker": {
+		"regex": "\\n^$\\n^(\\+\\+\\+)$",
+		"alt_regex": null,
+		"opening_tag": "<span class=\"chapter_marker\">",
+		"closing_tag": "</span>",
+		"contains_block_constructs": false,
+		"contains_inline_constructs": false
+	},
+	"section_marker": {
+		"regex": "\\n^$\\n^(===)$",
+		"alt_regex": null,
+		"opening_tag": "<span class=\"section_marker\">",
+		"closing_tag": "</span>",
+		"contains_block_constructs": false,
+		"contains_inline_constructs": false
+	},
+	"subsection_marker": {
+		"regex": "\\n^$\\n^(---)$",
+		"alt_regex": null,
+		"opening_tag": "<span class=\"subsection_marker\">",
+		"closing_tag": "</span>",
+		"contains_block_constructs": false,
+		"contains_inline_constructs": false
+	},
+	"extended_subsection_5_marker": {
+		"regex": "\\n^$\\n^(~~~~~)$",
+		"alt_regex": null,
+		"opening_tag": "<span class=\"extended_subsection_5_marker\">",
+		"closing_tag": "</span>",
+		"contains_block_constructs": false,
+		"contains_inline_constructs": false
+	},
+	"dinkus_marker": {
+		"regex": "\\n^$\\n^(\\*\\*\\*)$",
+		"alt_regex": null,
+		"opening_tag": "<span class=\"dinkus_marker\">",
+		"closing_tag": "</span>",
+		"contains_block_constructs": false,
+		"contains_inline_constructs": false
+	},
+	"ellipsis_marker": {
+		"regex": "\\n^$\\n^(\\.\\.\\.)$",
+		"alt_regex": null,
+		"opening_tag": "<span class=\"ellipsis_marker\">",
+		"closing_tag": "</span>",
+		"contains_block_constructs": false,
+		"contains_inline_constructs": false
+	}
+}
