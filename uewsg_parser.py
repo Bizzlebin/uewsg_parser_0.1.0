@@ -10,7 +10,7 @@
 #
 # Created on 2020-05-03
 #
-# Updated on 2020-05-07
+# Updated on 2020-05-08
 #
 # ***
 #
@@ -47,13 +47,12 @@
 # Imports
 #
 from sys import path
-import json
-import re
+import os, json, re
 #
 # +++
 # Variables
 #
-with open(f'{path[0]}\\block_constructs.json') as file:
+with open(os.path.join(path[0], 'block_constructs.json')) as file:
 	block_constructs = json.load(file)
 html_footer = '''
 </body>

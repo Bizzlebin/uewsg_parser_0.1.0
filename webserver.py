@@ -10,7 +10,7 @@
 #
 # Created on 2020-05-02
 #
-# Updated on 2020-05-07
+# Updated on 2020-05-08
 #
 # ***
 #
@@ -33,7 +33,7 @@ __all__ = ['httpd'] # Restricts what is exported on """import * from [module]"""
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from sys import path
 from urllib import parse
-import uewsg_parser, json
+import os, uewsg_parser, json
 #
 # +++
 # Functions
@@ -64,7 +64,7 @@ class httpd(BaseHTTPRequestHandler): # Call it httpd (daemon)
 		self.send_header('Content-Type', 'Text/HTML')
 		self.end_headers()
 		try:
-			with open(f'{path[0]}\\index.html', encoding = 'UTF-8') as index:
+			with open(os.path.join(path[0], 'index.html'), encoding = 'UTF-8') as index:
 				self.wfile.write(index.read().encode()) # This is an """io.BufferedIOBase""" stream (https://docs.python.org/3/library/io.html#io.BufferedIOBase)!
 		except IOError:
 			self.wfile.write('\nIndex not found!'.encode())
