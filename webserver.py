@@ -108,4 +108,4 @@ class httpd(BaseHTTPRequestHandler): # Call it httpd (daemon)
 # +++
 # Output
 #
-HTTPServer(('127.0.0.1', port), httpd).serve_forever()
+HTTPServer(('', port), httpd).serve_forever()
