@@ -21,9 +21,8 @@
 # +++
 # Description
 #
-# A small file to jump-start Heroku into running a Python app.
+# A small file to jump-start Heroku into running a Python app; it is intentionally blank!
 #
 # +++
 # Output
 #
-python>=3.6
