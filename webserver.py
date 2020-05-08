@@ -31,9 +31,17 @@ __all__ = ['httpd'] # Restricts what is exported on """import * from [module]"""
 # Imports
 #
 from http.server import BaseHTTPRequestHandler, HTTPServer
-from sys import path
+from sys import path, argv
 from urllib import parse
 import os, uewsg_parser, json
+#
+# +++
+# Variables
+#
+if len(argv) > 1:
+	port = int(argv[1])
+else:
+	port = 8000
 #
 # +++
 # Functions
@@ -100,4 +108,4 @@ class httpd(BaseHTTPRequestHandler): # Call it httpd (daemon)
 # +++
 # Output
 #
-HTTPServer(('127.0.0.1', 8000), httpd).serve_forever()
+HTTPServer(('127.0.0.1', port), httpd).serve_forever()
