@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en" dir="ltr">	
+
+<head>
+	<title>UEWSG Parser 0.1.0 | http://uewsg.org</title>
+	<meta charset="UTF-8">
+	<meta name="Viewport" content="initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="all, screen, print" href="http://uewsg.org/uewsg_0.2.0.css">
+	<style>
+div.flex {display: flex}
+div.column {margin: 0 1.25em; flex-basis: 100%}
+textarea, iframe {width: 100%; height: 20em}
+iframe {margin-top: -9px; border: none} /* Move the iframe up so the textareas are aligned; 8 px is browser default margin for body, with 1 px for textarea border */
+	</style>
+</head>
+
+<body>
+
+	<p class="container" style="text-align:center"><a href="http://uewsg.org">http://uewsg.org</a></p><br>
+
+	<span class="main_title_marker">###</span>
+	<h1>UEWSG Parser 0.1.0</h1><br>
+
+	<p class="main_title">A Proof-Of-Concept Plaintext-To-HTML Parser Implementing The UEWSG Standards</p><br>
+
+	<span class="chapter_marker">+++</span>
+	<h2></h2><br>
+
+	<div class="flex">
+		<div class="column">
+			<form method="post" target="output"> <!-- No action or enctype are needed for basic requests; the default enctype is "application/x-www-form-urlencoded"; provide a target to prevent the page being the target, thus forcing a refresh -->
+				<label for="input">UEWSG-compliant input (plaintext):</label><br>
+				<textarea id="input" name="input"></textarea><br>
+				<button>Parse!</button>
+			</form><br>
+		</div>
+
+		<div class="column">
+			<label for="output">Output source code (HTML):</label><br> <!-- The label will only link to the textarea with JS -->
+			<iframe name="output" scrolling="no"> <!-- "scrolling" is technically a deprecated property in HTML5, but it Just Works™ in all browsers and the official solution ("""overflow: hidden""" on the iframe) is not implemented anywhere: https://stackoverflow.com/questions/18470015/html5-iframe-no-scrolling -->
+			</iframe><br>
+		</div>
+
+		<!-- <div class="column"> This would need to be the target of a second POST request (problematic—possible to have a different version of the input/output in all 3 frames!) or be handled with JS, which is outside the scope of this project -->
+			<!-- <label for="preview">Output preview (HTML):<label><br> -->
+			<!-- <iframe name="preview" style="border: 1px dotted #005000"> -->
+			<!-- </iframe> -->
+		<!-- </div> -->
+	</div>
+
+</body>
+
+</html>
